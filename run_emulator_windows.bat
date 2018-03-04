@@ -1,0 +1,1 @@
+.\emulator\windows\emulator-x86.exe -avd forensics -system ./images/system.img -kernel ./images/kernel-qemu -gpu host -ramdisk ./images/ramdisk.img
