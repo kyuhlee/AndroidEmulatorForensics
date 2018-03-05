@@ -1,14 +1,14 @@
 CURDIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
-if [ ! -f $CURDIR/forensics_emulator_images.tar.gz ]; then
-		wget http://cobweb.cs.uga.edu/~kyuhlee/forensics_emulator_images.tar.gz $CURDIR/
+if [ ! -f $CURDIR/forensics_emulator_images.zip ]; then
+		wget http://cobweb.cs.uga.edu/~kyuhlee/forensics_emulator_images.zip $CURDIR/
 fi
 
 
-if [ ! -f $CURDIR/forensics_emulator_utils.tar.gz ]; then
-		wget http://cobweb.cs.uga.edu/~kyuhlee/forensics_emulator_utils.tar.gz $CURDIR/
+if [ ! -f $CURDIR/forensics_emulator_utils.zip ]; then
+		wget http://cobweb.cs.uga.edu/~kyuhlee/forensics_emulator_utils.zip $CURDIR/
 fi
 
-tar xzvf $CURDIR/forensics_emulator_images.tar.gz
-tar xzvf $CURDIR/forensics_emulator_utils.tar.gz
+unzip $CURDIR/forensics_emulator_images.zip
+unzip $CURDIR/forensics_emulator_utils.zip
 
