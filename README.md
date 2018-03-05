@@ -1,6 +1,6 @@
 ----
 ## Install Emulator
-1. Install Android SDK or Android Studio.
+1. Install Android SDK or Android Studio.  
 [https://developer.android.com/studio/install.html](https://developer.android.com/studio/install.html)
 [https://developer.android.com/studio/index.html](https://developer.android.com/studio/index.html)
 2. ```./download_emulator.sh``` Download system images and utilities for the emulator.
@@ -16,4 +16,3 @@
 ## Replace Webview and Chromium
 * ```./replace_webview.sh [new_webview.apk]```
 * ```./replace_chromium.sh [new_chromium.apk]```
-
