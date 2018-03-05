@@ -5,4 +5,8 @@
    * If you override ADNROID_AVD_HOME, you need to modify AVDROOT in init_emulator.sh file.
 4. Run run_emulator_xxx.sh to start the emulator.
    * If you get "SDL init failure, reason is: No available video device" error,
-			  you need to install sdl library. (e.g., sudo apt-get install libsdl1.2debian:i386)
+	  you need to install sdl library. (e.g., sudo apt-get install libsdl1.2debian:i386)
+
+To replace System webview: ./replace_webview.sh [new_webview.apk]
+To replace System chromium: ./replace_chromium.sh [new_chromium.apk]
+

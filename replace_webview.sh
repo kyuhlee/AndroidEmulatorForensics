@@ -6,5 +6,5 @@ adb root
 echo Uninstall Webview: com.android.webview
 adb uninstall com.android.webview
 sleep 1
-echo Uninstall Webview: $1
+echo Install Webview: $1
 adb install $1
