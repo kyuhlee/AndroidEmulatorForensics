@@ -1,7 +1,7 @@
 ----
 ## Install Emulator
 1. Install Android SDK or Android Studio.  
-[https://developer.android.com/studio/install.html](https://developer.android.com/studio/install.html)
+[https://developer.android.com/studio/install.html](https://developer.android.com/studio/install.html)  
 [https://developer.android.com/studio/index.html](https://developer.android.com/studio/index.html)
 2. ```./download_emulator.sh``` Download system images and utilities for the emulator.
 3. ```./init_emulator.sh``` Initialize (or reset) the emulator. (If you override ANDROID_AVD_HOME, you need to modify AVDROOT in ```init_emulator.sh```)
