@@ -1,3 +1,5 @@
+#!/bin/bash
+
 CURDIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 if [ ! -f $CURDIR/forensics_emulator_images.zip ]; then
