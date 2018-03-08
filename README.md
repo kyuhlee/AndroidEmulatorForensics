@@ -11,6 +11,7 @@
 * ```./run_emulator.sh``` Start the emulator.
 
 > If you get ```SDL init failure, reason is: No available video device``` error, you need to install sdl library. (e.g., ```sudo apt-get install libsdl1.2debian:i386``` in Ubuntu).
+> If you get ```Failed to open libEGL_translator: [libGL.so.1: cannot open shared object file: No such file or directory]``` error, you need to install gl-mesa library. (e.g., ```sudo apt-get install libgl1-mesa-glx:i386``` in Ubuntu)
 
 ----
 ## Replace Webview and Chromium
